@@ -1,6 +1,8 @@
-package AEM_Score.util;
+package aemscore.util;
 
-
+/**
+ * Holds all the constants in the project.
+ */
 public class Constants {
     // Constants
     public static final int MAX_GRADE_RANGE_QUANTITY = 10;
@@ -16,13 +18,13 @@ public class Constants {
     public static final int W_CODE = -1;
     public static final int GRADE_NA_CODE = -1;
     public static final int[] NUMERIC_GRADES = { 1, 10, 20, 30, 40, 50, 60, 70, 80, 90 };
-    public static final String GRADE_NA_STRING = "NA";
-    public static final String LETTER_GRADE_A = "A";
-    public static final String LETTER_GRADE_B = "B";
-    public static final String LETTER_GRADE_C = "C";
-    public static final String LETTER_GRADE_D = "D";
-    public static final String LETTER_GRADE_F = "F";
-    public static final String LETTER_GRADE_W = "W";
-    public static final String LETTER_GRADE_NA = "NA";
+    public static final char LETTER_GRADE_A = 'A';
+    public static final char LETTER_GRADE_B = 'B';
+    public static final char LETTER_GRADE_C = 'C';
+    public static final char LETTER_GRADE_D = 'D';
+    public static final char LETTER_GRADE_F = 'F';
+    public static final char LETTER_GRADE_W = 'W';
+    public static final char LETTER_GRADE_NA = 'N';
+    public static final char[] LETTER_GRADES = { 'F', 'D', 'C', 'B', 'A' };
     public static final String LETTER_GRADE_INVALID_ENTRY = "INVALID ENTRY";
 }
