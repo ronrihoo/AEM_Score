@@ -85,4 +85,4 @@ Please join the project by making contributions. The app could specifically use 
 This project was mostly made out of intrigue and not for actual letter grade approximations; therefore, the use of this Java app for actual approximations is not recommended. 
 
 ## Dear Students
-Do not allow the approximations of this app to set your expectations, since many variables and aspects of the grading model are not considered here and the students never have all of the data that the professors have (e.g., the grade of every student for every graded part of the course).
+Do not allow the approximations of this app to set your expectations, since many variables and aspects of the grading model are not considered here and the students never have all of the data that the professor has (e.g., the grade of every student for every graded part of the course).
