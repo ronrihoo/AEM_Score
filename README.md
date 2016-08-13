@@ -73,10 +73,10 @@ instances.fakeInterface.setUserScore([student's grade with no precision]);
 This Java app can be easily doped into an Android and/or JavaFX app. 
 
 ###Input
-You must provide data from the GUI to the **FakeInterface.java** class, using the same methods as described above.
+Using the **Driver.java** class, you must provide data from the GUI to the **FakeInterface.java** class with the same methods as described above.
 
 ###Output
-The **Main.java** class can provide the output to the GUI; however, for better practice, the **FakeInterface.java** class will require to handle more parts of the dataset and be updated by the **Driver.java** class. 
+The **Driver.java** class can directly provide data to the GUI; however, for better practice, the **FakeInterface.java** class will be required to handle more parts of the dataset and be updated by the **Driver.java** class. This way, the **FakeInterface.java** class will be the only middleman between the GUI (or other types of UI) and the rest of the app.
 
 ## Contributors
 Please join the project by making contributions. The app could specifically use better algorithms for the statistics portion, as it currently does not make the best use of the data provided to it. This is because the original author, Ronald Rihoo, lost interest in the app during the prototype phase.
