@@ -69,7 +69,7 @@ This method takes the numeric grade in the integer type (no precision).
 instances.fakeInterface.setUserScore([student's grade with no precision]);
 ```
 
-##Extended Usage
+##Extended Use
 This Java app can be easily doped into an Android and/or JavaFX app. 
 
 ###Input
@@ -79,7 +79,7 @@ You must provide data from the GUI to the **FakeInterface.java** class, using th
 The **Main.java** class can provide the output to the GUI; however, for better practice, the **FakeInterface.java** class will require to handle more parts of the dataset and be updated by the **Driver.java** class. 
 
 ## Contributors
-Please join the project. The project could specifically use better algorithms for the statistics portion, as it currently does not make the best use of the data provided to it.
+Please join the project by making contributions. The app could specifically use better algorithms for the statistics portion, as it currently does not make the best use of the data provided to it. This is because the original author, Ronald Rihoo, lost interest in the app during the prototype phase.
 
 ## Motivation
 This project was mostly made out of intrigue and not for actual letter grade approximations; therefore, the use of this Java app for actual approximations is not recommended. 
