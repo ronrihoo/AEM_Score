@@ -21,19 +21,19 @@ public class Data {
     // Getters
 
     public int[] getHistoricalAverageLetterGradeDistribution() {
-        return historicalAverageLetterGradeDistribution;
+        return this.historicalAverageLetterGradeDistribution;
     }
 
     public int[] getClassScoreLetterGradeQuota() {
-        return classScoreLetterGradeQuota;
+        return this.classScoreLetterGradeQuota;
     }
 
     public int[] getClassScoreLetterGradeMinimum() {
-        return classScoreLetterGradeMinimum;
+        return this.classScoreLetterGradeMinimum;
     }
 
     public int[] getClassAverageNumericGradeDistribution() {
-        return classAverageNumericGradeDistribution;
+        return this.classAverageNumericGradeDistribution;
     }
 
     public int[] getClassScoreDistribution() {
@@ -41,11 +41,11 @@ public class Data {
     }
 
     public int getStudentNumericGrade() {
-        return studentNumericGrade;
+        return this.studentNumericGrade;
     }
 
     public char getStudentLetterGrade() {
-        return studentLetterGrade;
+        return this.studentLetterGrade;
     }
 
     // Setters

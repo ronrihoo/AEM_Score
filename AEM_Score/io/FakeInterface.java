@@ -19,39 +19,39 @@ public class FakeInterface {
         useHistoricalAverages_Summer2016();
         useExam2Stats();
         fakeClassAverageNumericGradeDistro();
-        setUserScore(50);                                             // student's exam 2 score
+        setUserScore(50);                                                   // student's exam 2 score
     }
 
     // Manual hard input
 
     public void useHistoricalAverages_Summer2016() {
-        setHistoricalAvgLetterGradeDistribution(27, 24, 31, 5, 12);   // A, B, C, D, F
+        this.setHistoricalAvgLetterGradeDistribution(27, 24, 31, 5, 12);    // A, B, C, D, F
     }
 
     public void fakeClassAverageNumericGradeDistro() {
-        setClassAverageNumericGradeDistribution(0, 0, 2, 3, 5, 13, 8, 10, 3, 3);
+        this.setClassAverageNumericGradeDistribution(0, 0, 2, 3, 5, 13, 8, 10, 3, 3);
     }
 
     public void useExam2Stats() {
-        setClassScoreDistribution(0, 0, 3, 4, 6, 12, 9, 9, 2, 2);     // high to low; 100-90, 89-80, 79-70, ...
+        this.setClassScoreDistribution(0, 0, 3, 4, 6, 12, 9, 9, 2, 2);      // high to low; 100-90, 89-80, 79-70, ...
     }
 
     // Getters
 
     public int[] getHistoricalAverageLetterGradeDistribution() {
-        return historicalAverageLetterGradeDistribution;
+        return this.historicalAverageLetterGradeDistribution;
     }
 
     public int[] getClassAverageNumericGradeDistribution() {
-        return classAverageNumericGradeDistribution;
+        return this.classAverageNumericGradeDistribution;
     }
 
     public int[] getClassScoreDistribution() {
-        return classScoreDistribution;
+        return this.classScoreDistribution;
     }
 
     public int getUserScore() {
-        return userScore;
+        return this.userScore;
     }
 
     // Setters

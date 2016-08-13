@@ -34,11 +34,11 @@ public class Statistics {
         // Generate the proportionality list called amountOfStudentsPerLetterGrade
         if (this.studentQuantity > 0 && historicalAverageDistribution.length > 0) {
             for (int i = 0; i < Constants.MAX_LETTERGRADE_QUANTITY; i++) {
-                tempNum = (((double) this.historicalAverageDistribution[i])*this.proportionalityConstant);
-                if (tempNum - ((double) ((int) tempNum)) - 0.5 > 0) {
-                    tempNum = (double) ((int) tempNum + 1);
+                this.tempNum = (((double) this.historicalAverageDistribution[i])*this.proportionalityConstant);
+                if (this.tempNum - ((double) ((int) this.tempNum)) - 0.5 > 0) {
+                    this.tempNum = (double) ((int) this.tempNum + 1);
                 }
-                this.amountOfStudentsPerLetterGrade[i] = (int) tempNum;
+                this.amountOfStudentsPerLetterGrade[i] = (int) this.tempNum;
             }
         }
         return this.amountOfStudentsPerLetterGrade;
@@ -50,15 +50,15 @@ public class Statistics {
         int c = letterGradeQuota.length - 1;
         if (letterGradeQuota[0] > -1) {
             a = letterGradeQuota[c];
-            for (int i = classScoreDistribution.length - 1; i > 0; i--) {
-                b += classScoreDistribution[i];
+            for (int i = this.classScoreDistribution.length - 1; i > 0; i--) {
+                b += this.classScoreDistribution[i];
                 if (b >= a) {
-                    possibleScoreMinimumForLetterGrade[c] = i*10;
+                    this.possibleScoreMinimumForLetterGrade[c] = i*10;
                     c -= 1;
                     a += letterGradeQuota[c];
                 }
             }
         }
-        return possibleScoreMinimumForLetterGrade;
+        return this.possibleScoreMinimumForLetterGrade;
     }
 }
