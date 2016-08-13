@@ -18,7 +18,7 @@ The only instance that **Driver.java** has is one, and only one, of the **Instan
 All data must be provided to the app through the **FakeInterface.java** class.
 
 ###Setting the Historical Class Average Distribution
-Using the **Driver.java** class, you must invoke the `setHistoricalAvgLetterGradeDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instance.java** class. 
+Using the **Driver.java** class, you must invoke the `setHistoricalAvgLetterGradeDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
 instances.fakeInterface.setHistoricalAvgLetterGradeDistribution(27, 24, 31, 5, 12);
@@ -30,7 +30,7 @@ instances.fakeInterface.setHistoricalAvgLetterGradeDistribution([A], [B], [C], [
 ```
 
 ###Setting the Class Average Numeric Grade Distribution
-Using the **Driver.java** class, you must invoke the `setClassAverageNumericGradeDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instance.java** class. 
+Using the **Driver.java** class, you must invoke the `setClassAverageNumericGradeDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
 instances.fakeInterface.setClassAverageNumericGradeDistribution(0, 0, 2, 3, 5, 13, 8, 10, 3, 3);
@@ -46,7 +46,7 @@ For the sake of keeping data organized, where you want to approximate a student'
 
 It is practically the `setClassAverageNumericGradeDistribution(...)` method, but has a different name and affects a different part of the dataset.
 
-Using the **Driver.java** class, you must invoke the `setClassScoreDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instance.java** class. 
+Using the **Driver.java** class, you must invoke the `setClassScoreDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
 instances.fakeInterface.setClassScoreDistribution(0, 0, 2, 3, 5, 13, 8, 10, 3, 3);
@@ -58,7 +58,7 @@ instances.fakeInterface.setClassScoreDistribution([100-90%], [89-80%], [79-70%],
 ```
 
 ###Setting the Student's Score
-Using the **Driver.java** class, you must invoke the `setUserScore(...)` method from the instance of **FakeInterface.java** created by the **Instance.java** class. 
+Using the **Driver.java** class, you must invoke the `setUserScore(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
 instances.fakeInterface.setUserScore(50);
