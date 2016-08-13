@@ -70,7 +70,7 @@ instances.fakeInterface.setUserScore([student's grade with no precision]);
 ```
 
 ##Extended Use
-This Java app can be easily doped into an Android and/or JavaFX app. 
+This Java app can be easily doped into a(n) Android and/or JavaFX app. 
 
 ###Input
 Using the **Driver.java** class, you must provide data from the GUI to the **FakeInterface.java** class with the same methods as described above.
