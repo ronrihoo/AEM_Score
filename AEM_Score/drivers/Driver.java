@@ -42,7 +42,7 @@ public class Driver {
                 "Class Score Distribution");
     }
 
-    // Computer-and-Printers
+    // Compute-and-Printers
 
     public void computeAndPrintClassScoreLetterGradeQuota() {
         computeStudentQuotaPerLetterGrade();
