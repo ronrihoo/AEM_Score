@@ -1,6 +1,6 @@
 # AEM Score
 ##Brief
-Approximates a student's lettergrade score for an exam or average score in the Advanced Engineering Mathematics course taught by Dr. Diegnan at UT Dallas.
+Approximates a student's letter grade for an exam or average score in the Advanced Engineering Mathematics course taught by Dr. Diegnan at UT Dallas.
 
 ##Structure
 
