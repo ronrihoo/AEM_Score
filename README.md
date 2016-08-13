@@ -14,7 +14,7 @@ The only instance that **Driver.java** has is one, and only one, of the **Instan
 
 **Instances.java** is always the middleman between all computation and io classes; therefore, instances will never be passed to other instances.
 
-##Quick Usage
+##Quick Use
 All data must be provided to the app through the **FakeInterface.java** class.
 
 ###Setting the Historical Class Average Distribution
@@ -42,7 +42,7 @@ instances.fakeInterface.setClassAverageNumericGradeDistribution([100-90%], [89-8
 ```
 
 ###Setting the Class Score Numeric Grade Distribution
-For the sake of keeping data organized, where you want to approximate a student's exam letter grade score (instead of the student's course average letter grade), the `setClassScoreDistribution(...)` method can be used. 
+For the sake of keeping data organized, where you want to approximate a student's exam score letter grade (instead of the student's course average letter grade), the `setClassScoreDistribution(...)` method can be used. 
 
 It is practically the `setClassAverageNumericGradeDistribution(...)` method, but has a different name and affects a different part of the dataset.
 
