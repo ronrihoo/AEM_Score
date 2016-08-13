@@ -6,11 +6,11 @@ Approximates a student's letter grade for an exam or average score in the Advanc
 
 ![alt text](http://i.imgur.com/K78y69M.png)
 
-**Main.java** has only one instance of a class. That one instance is of the **Driver.java** class. 
+**Main.java** has only one instance of another class. That one instance is of the **Driver.java** class. 
 
-The only instance that **Driver.java** has is one, and only one, of the **Instances.java** class. 
+The only instance that is created in **Driver.java** is of the **Instances.java** class. 
 
-**Instances.java** handles all instances of any other classes.  
+**Instances.java** handles all instances of any other classes. 
 
 **Instances.java** is always the middleman between all computation and io classes; therefore, instances will never be passed to other instances.
 
