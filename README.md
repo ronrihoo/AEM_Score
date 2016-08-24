@@ -79,10 +79,10 @@ Using the **Driver.java** class, you must provide data from the GUI to the **Fak
 The **Driver.java** class can directly provide data to the GUI; however, for better practice, the **FakeInterface.java** class will be required to handle more parts of the dataset and be updated by the **Driver.java** class. This way, the **FakeInterface.java** class will be the only middleman between the GUI (or other types of UI) and the rest of the app.
 
 ## Contributors
-Please join the project by making contributions. The app could specifically use better algorithms for the statistics portion, as it currently does not make the best use of the data provided to it. This is because the original author, Ronald Rihoo, lost interest in the app during the prototype phase.
+Please join the project by making contributions. The app could specifically use better algorithms for the statistics portion, as it currently does not make the best use of the data provided to it. The original author, Ronald Rihoo, lost interest in distributing the app to his fellow classmates, so he did not continue working on it. This was due to a potentially high percentage of error in the calculations, which derived from not having access to enough data.
 
 ## Motivation
-This project was mostly made out of intrigue and not for actual letter grade approximations; therefore, the use of this Java app for actual approximations is not recommended. 
+This project was mostly made out of curiosity and not for precise letter grade approximations; therefore, the use of this Java app for precise approximations is not recommended. 
 
 ## Dear Students
 Do not allow the approximations of this app to set your expectations, since many variables and aspects of the grading model are not considered here and the students never have all of the data that the professor has (e.g., the grade of every student for every graded part of the course).
