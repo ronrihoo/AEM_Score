@@ -1,8 +1,8 @@
 # AEM Score
-##Brief
+## Brief
 Approximates a student's letter grade for an exam or average score in the Advanced Engineering Mathematics course taught by Dr. Deignan at UT Dallas.
 
-##Structure
+## Structure
 
 ![alt text](http://i.imgur.com/K78y69M.png)
 
@@ -14,10 +14,10 @@ The only instance that **Driver.java** has is one, and only one, of the **Instan
 
 **Instances.java** is always the middleman between all computation and io classes; therefore, instances will never be passed to other instances.
 
-##Quick Usage
+## Quick Usage
 All data must be provided to the app through the **FakeInterface.java** class.
 
-###Setting the Historical Class Average Distribution
+### Setting the Historical Class Average Distribution
 Using the **Driver.java** class, you must invoke the `setHistoricalAvgLetterGradeDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
@@ -29,7 +29,7 @@ This method takes the letter grade distribution from highest to lowest for its a
 instances.fakeInterface.setHistoricalAvgLetterGradeDistribution([A], [B], [C], [D], [F]);
 ```
 
-###Setting the Class Average Numeric Grade Distribution
+### Setting the Class Average Numeric Grade Distribution
 Using the **Driver.java** class, you must invoke the `setClassAverageNumericGradeDistribution(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
@@ -41,7 +41,7 @@ This method takes the numeric grade distribution from highest to lowest for its 
 instances.fakeInterface.setClassAverageNumericGradeDistribution([100-90%], [89-80%], [79-70%], [69-60%], [59-50%], [49-40%], [39-30%], [29-20%], [19-10%], [9-0%]);
 ```
 
-###Setting the Class Score Numeric Grade Distribution
+### Setting the Class Score Numeric Grade Distribution
 For the sake of keeping data organized, where you want to approximate a student's exam letter grade score (instead of the student's course average letter grade), the `setClassScoreDistribution(...)` method can be used. 
 
 It is practically the `setClassAverageNumericGradeDistribution(...)` method, but has a different name and affects a different part of the dataset.
@@ -57,7 +57,7 @@ This method takes the numeric grade distribution from highest to lowest for its 
 instances.fakeInterface.setClassScoreDistribution([100-90%], [89-80%], [79-70%], [69-60%], [59-50%], [49-40%], [39-30%], [29-20%], [19-10%], [9-0%]);
 ```
 
-###Setting the Student's Score
+### Setting the Student's Score
 Using the **Driver.java** class, you must invoke the `setUserScore(...)` method from the instance of **FakeInterface.java** created by the **Instances.java** class. 
 
 ```Java
@@ -69,13 +69,13 @@ This method takes the numeric grade in the integer type (no precision).
 instances.fakeInterface.setUserScore([student's grade with no precision]);
 ```
 
-##Extended Use
+## Extended Use
 This Java app can be easily doped into an Android and/or JavaFX app. 
 
-###Input
+### Input
 Using the **Driver.java** class, you must provide data from the GUI to the **FakeInterface.java** class with the same methods as described above.
 
-###Output
+### Output
 The **Driver.java** class can directly provide data to the GUI; however, for better practice, the **FakeInterface.java** class will be required to handle more parts of the dataset and be updated by the **Driver.java** class. This way, the **FakeInterface.java** class will be the only middleman between the GUI (or other types of UI) and the rest of the app.
 
 ## Contributors
