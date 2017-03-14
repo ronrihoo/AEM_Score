@@ -12,7 +12,7 @@ The only instance that **Driver.java** has is one, and only one, of the **Instan
 
 **Instances.java** handles all instances of any other classes.  
 
-**Instances.java** is always the middleman between all computation and io classes; therefore, instances will never be passed to other instances.
+**Instances.java** is always the middleman between all computation and io classes; therefore, instances will never be passed from other instances.
 
 ## Quick Usage
 All data must be provided to the app through the **FakeInterface.java** class.
